@@ -40,4 +40,16 @@ public class ClassName : MonoBehaviour
   - **OnApplicationQuit** : 어플리케이션 종료 전 모든 게임 오브젝트에서 호출된다. 
 
   주로 Awake, OnEnable, Start, Update 함수를 사용했다. 
+  
+  
 
+## 개발 노트
+
+- 주로 Awake, Start, Update를 활용
+
+- OnEnable은 팝업 창과 같은 기능을 구현할 때 팝업 화면의 초기화를 위해 사용
+
+- 초기에 Start 함수를 사용하여 GameObject.Find()를 사용했지만 오류 발생 => GameObject를 찾을 수 없다. (스크립트가 활성화 된경우에 호출) 그래서 Awake를 사용하여 오류 해결
+- OnApplicationQuit사용하여 안드로이드 기기에서  뒤로가기 눌렀을 때 종료 하도록 구현
+- Update를 사용하여 게임 요소들의 상태를 확인하여 기능 구현할 때 사용
+  - 주로 MoveToward와 같은 기능 사용할 때, 크기를 점점 크게 혹은 작게 할 때 사용
