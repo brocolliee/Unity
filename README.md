@@ -24,7 +24,7 @@ Unity Document를 참고하여 Unity 개발 내용 정리
 - **[Canvas](./Unity%20UI/Canvas.md)**
 
 - **[Button](./Unity%20UI/Button.md)**
-- Text
+- **[Text](./Unity%20UI/Text.md)**
 - Image & Raw Image
 - Toggle
 - ScrollRect & Scrollbar
