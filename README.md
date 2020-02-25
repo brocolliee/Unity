@@ -32,3 +32,9 @@ Unity Document를 참고하여 Unity 개발 내용 정리
 - InputField
 - Panel
 
+
+
+### 기타
+
+- **[APK Debugging](./기타/APK%20Debugging.md)**
+
